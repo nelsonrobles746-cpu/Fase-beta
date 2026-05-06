@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neudys Robles - Cosmetología | Belleza Consciente</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fff0f5, #ffe4ec);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(216, 27, 96, 0.15);
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #d81b60;
+  box-shadow: 0 5px 20px rgba(216, 27, 96, 0.2);
+}
+
+h1 {
+  margin: 15px 0 5px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #d81b60;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.instagram {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.instagram:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.whatsapp {
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  color: white;
+}
+
+.whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.servicios {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+.servicios:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(245, 87, 108, 0.4);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.divider {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, #d81b60, #f5576c);
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .button {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- FOTO PERFIL -->
+  <img src="https://via.placeholder.com/150?text=Neudys+Robles" alt="Neudys Robles - Cosmetología">
+
+  <h1>Neudys Robles</h1>
+  <p class="subtitle">Cosmetología | Belleza Consciente</p>
+
+  <div class="divider"></div>
+
+  <p>Especialista en tratamientos de belleza y cuidado personal. Transformando tu belleza natural con consciencia y profesionalismo.</p>
+
+  <!-- BOTONES -->
+  <div class="buttons-container">
+    <a class="button instagram" href="https://instagram.com/" target="_blank">
+      <span class="icon">📷</span>
+      Instagram
+    </a>
+    <a class="button whatsapp" href="https://wa.me/573001234567" target="_blank">
+      <span class="icon">💬</span>
+      WhatsApp
+    </a>
+    <a class="button servicios" href="#servicios">
+      <span class="icon">✨</span>
+      Mis Servicios
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
